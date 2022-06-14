@@ -6,7 +6,7 @@
            revision="twelve"/>
   
   <remote  name="WA"
-           fetch="https://github.com/WolfAURman"
+           fetch="https://github.com/Grom-exe"
            revision="lineage-19.1"/>
 
  <!-- Device Trees -->
