@@ -6,11 +6,11 @@
            revision="twelve"/>
 
   <remote  name="WA"
-           fetch="https://github.com/WolfAURman"
-           revision="twelve-L"/>
+           fetch="https://github.com/Grom-exe"
+           revision="lineage-19.1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="corvus_android_device_xiaomi_lava" remote="WA" />
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="WA" />
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Redmi-MT6768" revision="lineage-19.1"/>
  
  <!-- Kernel -->
@@ -25,8 +25,8 @@
 
  <!-- Additional -->
   <remove-project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="PixelPlusUI/frameworks_opt_telephony" remote="github" revision="sv2"/>
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
 
   <remove-project name="platform/frameworks/opt/net/ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="PixelPlusUI/frameworks_opt_net_ims" remote="github" revision="sv2"/>
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
 </manifest>
