@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Remotes -->
   <remote  name="dt" fetch="https://github.com/Grom-exe" revision="Voltage12.1"/>
   <remote  name="common" fetch="https://github.com/r9lab" />">
   <remote  name="r" fetch="https://github.com/PixelExperience-Devices"/>
