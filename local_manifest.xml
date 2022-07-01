@@ -12,7 +12,7 @@
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="dt" revision="Voltage12.1"/>
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="common" revision="awaken"/>
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="r" revision="twelve"/>
-  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="r9" revision="twelve"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="dt" revision="twelve"/>
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="rr" revision="twelve"/>
   
  <!-- Extras -->
