@@ -3,11 +3,11 @@
 
   <remote  name="Redmi-MT6768"
            fetch="https://github.com/Redmi-MT6768"
-           revision="twelve"/>
-
-  <remote  name="WA"
-           fetch="https://github.com/Grom-exe"
            revision="lineage-19.1"/>
+  
+  <remote  name="WA"
+           fetch="https://github.com/WolfAURman"
+           revision="twelve-L"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="WA" revision="lineage-19.1" />
